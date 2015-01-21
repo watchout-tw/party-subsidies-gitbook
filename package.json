@@ -1,7 +1,7 @@
 {
-  "name": "crowdfunding-gitbook",
+  "name": "gitbook-seed",
   "version": "0.0.1",
-  "description": "「群眾募資」簡單來說就是向公眾募集資金，然而資金需求者必須要向公眾說明資金用途並爭取支持。",
+  "description": "",
   "private": true,
   "devDependencies": {
     "gitbook": "^1.5.0",
@@ -10,9 +10,9 @@
     "gulp-gh-pages": "^0.4.0"
   },
   "scripts": {
-    "republish": "npm run republish:lexicon && npm run republish:glossary",
-    "republish:lexicon": "google-spreadsheet-download 1CGni6oPLXliLGWleBSCHYd3zQfsiIc5-SSOfS3F9TTg 2 > lexicon.json",
-    "republish:glossary": "node -e 'JSON.parse(require(\"fs\").readFileSync(\"lexicon.json\")).map(function(d){if(d[\"title\"]&&d[\"definition\"]){console.log(\"\\n# \"+d[\"title\"]+\"\\n\"+d[\"definition\"].trim().replace(/\\n{2,}/g,\"\\n\"))}})' > GLOSSARY.md",
+    #"republish": "npm run republish:lexicon && npm run republish:glossary",
+    #"republish:lexicon": "google-spreadsheet-download 1CGni6oPLXliLGWleBSCHYd3zQfsiIc5-SSOfS3F9TTg 2 > lexicon.json",
+    #"republish:glossary": "node -e 'JSON.parse(require(\"fs\").readFileSync(\"lexicon.json\")).map(function(d){if(d[\"title\"]&&d[\"definition\"]){console.log(\"\\n# \"+d[\"title\"]+\"\\n\"+d[\"definition\"].trim().replace(/\\n{2,}/g,\"\\n\"))}})' > GLOSSARY.md",
     "postinstall": "gitbook install .",
     "test": "npm run build",
     "build": "gitbook build .",
@@ -21,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/g0v/crowdfunding-gitbook.git"
+    "url": "https://github.com/pm5/gitbook-seed.git"
   },
   "bugs": {
-    "url": "https://github.com/g0v/crowdfunding-gitbook/issues"
+    "url": "https://github.com/pm5/gitbook-seed/issues"
   },
-  "homepage": "https://github.com/g0v/crowdfunding-gitbook"
+  "homepage": "https://github.com/pm5/gitbook-seed"
 }
