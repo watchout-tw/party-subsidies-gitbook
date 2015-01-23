@@ -10,7 +10,7 @@
 
 ###次次標提，最多可以六個
 
-[連結](www.google.com)
+[連結](http://www.google.com/)
 格式很簡單。
 換行不會分段。
 
