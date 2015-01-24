@@ -1,24 +1,22 @@
-# 「政黨補助款」重大議題整理
+# 沃草！略懂「政黨補助款」了
 
-噢喔噢喔
-換行不會分段
+## 緣起
 
-空兩行就是分段
-井字號是標題
+## 版權說明
 
-##次標題
+![沃草](http://i.imgur.com/XR31knH.jpg)
 
-###次次標提，最多可以六個
+《沃草！略懂「政黨補助款了」》由[沃草！](https://www.facebook.com/WatchOutTW)整理撰寫，採 CC-BY-NC 授權釋出。
 
-[連結](http://www.google.com/)
-格式很簡單。
-換行不會分段。
+## 參考連結
 
-空兩行就是分段。
+* [國政基金會：政黨補助制度之比較](http://www.npf.org.tw/post/3/11420)
 
-# 1
-## 2
-### 3
-#### 3
-##### 3
-###### 3
+## 技術參考
+
+### 從〈自經區爭議書〉了解 gitbook 格式
+
+對照兩者可以看出格式邏輯：
+
+* [github](https://github.com/billy3321/TaiwanFEPZS)
+* [published by gitbook](http://billy3321.gitbooks.io/taiwanfepzs/)
